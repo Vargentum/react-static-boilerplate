@@ -5,14 +5,15 @@
  */
 
 import React from 'react';
+import PassMeter from "./js/PassMeter";
+
 
 export default class {
 
   render() {
     return (
       <div>
-        <h1>Home Page</h1>
-        <p>Coming soon.</p>
+        <PassMeter />
       </div>
     );
   }
